@@ -1,0 +1,2543 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Albert Sans';
+ 
+}
+
+body .div1{
+    height: 80px;
+    margin: 1% 8% auto 8%;
+    position: relative;
+}
+
+
+div .zoho {
+  
+    position: absolute;
+    margin: 5px;
+    left: 20px;
+    top: 8px;
+    width: 120px;
+    height: 40px;
+    background-image: url('./image/zh-sprite-2x-new.png');
+    background-repeat: no-repeat;
+    background-position: -429px 0;
+    background-size: auto 70px;
+}
+
+div .ul1 {
+    position:absolute;
+    right: 20px;
+    margin: 20px;
+
+}
+div .ul1 li{
+    display: inline-block;
+    padding: 16px 12px 10px ;
+    font-size: 13px;
+    
+}
+
+div .ul1 li a{
+    text-decoration: none;
+    color: black;
+
+}
+div .search {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    height: 21px;
+    width: 25px;
+    background: url("./image/zh-sprite-2x-new.png") -398px -73px;
+    background-size: auto 100px;
+    transform: scale(0.8);
+    border: none;
+   
+}
+
+
+
+body .search1{
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    top: -78px;
+
+    animation-name: anand;
+    animation-duration: 2s;
+    
+}
+
+@keyframes anand {
+
+    from {
+        top:-200px;
+    }
+
+    to {
+        top:-78px
+    }
+    
+}
+
+body .search1 .search2{
+    padding:0px;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+.content {
+    padding: auto;
+    font-size: 15px;
+    width: 100%;
+    padding: 30px 40px 30px 0;
+}
+input {
+    border: none;
+}
+.search3 {
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 31.5%;
+    height: 35px;
+    width: 35px;
+    background: url("./image/zh-sprite-2x-new.png") -393px -65px;
+    background-size: auto 100px;
+    background-color:rgba(238,238,238, 1);
+    border: none;
+
+    
+
+
+}
+
+.ser {
+    display: none;
+    
+}
+
+body .head1{
+    position: relative;
+    box-sizing: border-box;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  
+
+   
+}
+body .head1 h1 {
+    font-size: 38px;
+    padding-top: 70px;
+    font-family: 'Alkalami';
+    text-align: center;
+    
+    
+}
+
+body .head1 p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Albert Sans';
+    font-weight: 1000;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+
+/* Featued APPS */
+
+.apps{ 
+    text-align: center;
+margin: 100px auto auto auto;
+position: relative;
+width:65%;
+
+
+}
+code {
+    opacity: 0.8;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+body .apps .fp
+
+{
+    display: grid;
+    grid-template-columns: 1.9fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    background-color: white;
+    gap: 1px;
+    background-color: rgb(229, 230, 231);
+    margin-top: 20px;
+}
+
+body .apps .fp div {
+    background-color:white;
+  
+}
+body .apps .fp div {
+
+    position: relative;
+    cursor: pointer;
+    padding: 52px 15px 20px 109px ;
+}
+
+
+body .apps .fp div span {
+    background-image: url("./image/zh-sprite-2x-new.png");
+}
+
+body .apps .fp div a button{
+    position: relative;
+    top: 15px;
+    right: 51px;
+    width: 95.5px;
+    height: 29px;
+    border:rgb(3, 171, 243) 1px solid;
+    background-color: white;
+    font-size: 11px;
+    color: rgb(3, 171, 243);
+}
+body .apps .fp div a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+
+}
+
+body .apps .fp div a p {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+
+/* CRM */
+body .apps .fp .crm {
+    grid-row: span 2;
+    position: relative;
+    padding: 110px 20px 60px 150px;
+    background-image: linear-gradient(to right,rgba(170, 210, 249,1), rgba(170, 210, 249,0) );
+    cursor: pointer;
+    
+
+}
+
+body .apps .fp .crm .crm1{
+    width: 96px;
+    height: 96px;
+    position:absolute;
+    background-position: -1044px 10px;
+    background-size: auto 120px;
+    top: 128px;
+    left: 30px;
+}
+body .apps .fp .crm a {
+
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+
+    
+}
+body .apps .fp .crm a h3 {
+    font-size: 25px;
+}
+body .apps .fp .crm a p{
+    opacity: 0.7 ;
+    font-size: 15px;
+    
+}
+body .apps .fp .crm a button {
+    position: relative;
+
+    width: 128px ;
+    height: 36px; ;
+    padding: 8px 17px;
+    color: white;
+    background-color: rgb(255, 60, 0);
+    font-size: 13px;
+    border: none;
+    font-weight: bolder;
+    top: 20px;
+    right: 19px;
+
+}
+
+body .apps .fp .crm .crm1 p{
+
+    color: black;
+    position: relative;
+    top: 94px;
+    font-weight: bold;
+}
+/* CRM complete*/
+/* Book start */
+
+
+body .apps .fp .books .books1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zh-sprite-2x-new.png');
+    background-position: -673px 6px;
+    background-size: auto 85px;
+    left: 22px;
+    top: 55px;
+}
+
+
+
+
+
+/* Book end */
+/* Mail Started */
+
+
+body .apps .fp .mail .mail1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zh-sprite-2x-new.png');
+    background-position: -832px 6px;
+    background-size: auto 88px;
+    left: 22px;
+    top: 55px;
+}
+
+
+/* Mail Ended */
+/* people Started */
+
+body .apps .fp .people .people1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+    background-position: -2555px -185px;
+    background-size: auto 699px;
+    left: 22px;
+    top: 55px;
+}
+
+
+
+/* people Complete */
+
+body .apps .fp .project .project1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+    background-position: -1329px 3px;
+    background-size: auto 340px;
+    left: 22px;
+    top: 55px;
+}
+
+/* project complet */
+
+/* Work start  */
+body .apps .fp .work {
+    grid-row: span 2;
+    position: relative;
+    padding: 110px 20px 60px 150px;
+    background-image: linear-gradient(to right,rgba(246, 204, 191, 1), rgba(246, 204, 191, 0) );
+    cursor: pointer;
+    
+
+}
+
+body .apps .fp .work .work1{
+    width: 96px;
+    height: 96px;
+    position:absolute;
+    background-image: url('./image/zh-sprite-2x-new.png');
+    background-position: -91px 96px;
+    background-size: auto 96px;
+    top: 128px;
+     left: 30px;
+
+
+}
+body .apps .fp .work a {
+
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+    
+}
+body .apps .fp .work a h3 {
+    font-size: 25px;
+}
+body .apps .fp .work a p{
+    opacity: 0.7 ;
+    font-size: 15px;
+}
+body .apps .fp .work a button {
+    position: relative;
+
+    width: 128px ;
+    height: 36px; ;
+    padding: 8px 17px;
+    color: white;
+    background-color: rgb(255, 60, 0);
+    font-size: 13px;
+    border: none;
+    font-weight: bolder;
+    top: 20px;
+    right: 19px;
+
+}
+
+body .apps .fp .work .work1 p{
+
+    color: black;
+    position: relative;
+    top: 108px;
+    font-weight: bold;
+}
+/* Work complete*/
+
+/* Assist start */
+
+body .apps .fp .assist .assist1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+    background-position: -2244px -185px;
+    background-size: auto 699px;
+    left: 22px;
+    top: 55px;
+}
+
+
+/* Assist end */
+/* Meeting Started */
+
+body .apps .fp .meeting .meeting1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+    background-position: -2px -185px;
+    background-size: auto 699px;
+    left: 22px;
+    top: 55px;
+}
+
+
+/* Assist Ended */
+/* Sprints Started */
+body .apps .fp .sprints .sprints1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+    background-position: 188px -124px;
+    background-size: auto 699px;
+    left: 22px;
+    top: 55px;
+}
+
+
+/* Sprints Complete */
+/* cliq started */
+
+
+body .apps .fp .cliq .cliq1 {
+
+    width: 64px;
+    height:64px;
+    position: absolute;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+    background-position: 563px -124px;
+    background-size: auto 699px;
+    left: 22px;
+    top: 55px;
+}
+
+/* cliq Ended */
+
+body .bundles {
+    width: 65%;
+    margin: 100px auto auto auto;
+    text-align: left;
+    
+}
+body .bundles .sp {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 185px 185px 185px;
+    position: relative;
+    
+
+}
+body .bundles .sp div{
+    border: 1px solid rgba(187, 183, 183, 0.5);
+  
+}
+
+/* ZOHO One */
+
+body .bundles .sp .one{
+    grid-column: span 3;
+    padding: 40px 50px 45px 225px ;
+    border: none;
+  
+}
+
+body .bundles .sp .one .one1{
+    width: 70px;
+    height: 72px;
+    position: absolute;
+    background-image: url('./image/zh-sprite-2x-new.png');
+    background-position: 268px 0px;
+    background-size: auto 72px;
+    left: 100px;
+    top: 40px;
+}
+
+body .bundles .sp .one .one1 p{
+    position: absolute;
+    top: 74px;
+    left: 1px;
+    font-size: 17px;
+    line-height: 1.6;
+
+}
+
+body .bundles .sp .one  p{
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.7;
+    
+
+}
+body .bundles .sp .one a {
+
+    color: rgb(3, 171, 243);
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.7;
+
+}
+/* ZOHO One */
+body .bundles .sp div {
+    padding: 40px 0px 0px 127px ;
+    position: relative;
+    border-left: none;
+    border-bottom: none;
+    
+}
+body .bundles .sp div span {
+    width: 60px;
+    height: 66px;
+    position: absolute;
+   background-image: url('./image/zh-sprite-2x-new.png');
+    left: 40px;
+    top: 40px;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+
+}
+ .a2{ 
+    color: rgb(3, 171, 243);
+    position: relative;
+    right: 102px;
+    top: 10px;
+
+}
+body .bundles .sp div p {
+    opacity: 0.7;
+   
+}
+
+.center{
+    text-align: center;
+    border: 1px solid rgba(187, 183, 183, 0.5);
+    
+
+}
+legend {
+    letter-spacing: 2px;
+}
+
+/* CRM Plus */
+
+body .bundles .sp .crmp .crmp1 {
+   background-position: 0px 0px;
+    background-size: auto 66px;
+
+}
+
+
+/* Finance */
+
+body .bundles .sp .finance .finance1 {
+   background-position: -135px 0px;
+    background-size: auto 66px;
+}
+
+/* Workplace */
+
+body .bundles .sp .workplace .workplace1 {
+   background-position: -69px 0px;
+    background-size: auto 66px;
+
+}
+
+
+/* Workplace */
+/* People Plus */
+
+body .bundles .sp .peoplep .peoplep1 {
+   background-image: url('./image/zh-sprite-2x-new.png');
+   background-position: -339px 0px;
+    background-size: auto 66px;
+}
+
+/* it management */
+
+body .bundles .sp .it .it1 {
+   background-image: url('./image/zh-sprite-2x-new.png');
+   background-position: -196px 0px;
+    background-size: auto 66px;
+}
+
+/* Marketing */
+
+
+body .bundles .sp .marketing .marketing1 {
+
+   background-position: 61px 0px;
+    background-size: auto 66px;
+
+}
+
+
+
+/* Marketing */
+
+
+/* Zoho Apps started */
+
+body .zohoapp {
+    width: 85%;
+    text-align: center;
+    margin: 70px auto auto auto;
+}
+
+body .zohoapp .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 260px 260px 260px 260px;
+
+    grid-template-areas: 
+    " smark cust emcl"
+    " smark cust emcl"
+    " smark fin emcl"
+    " smark fin emcl";
+    margin-top: 40px;
+    
+}
+
+.smark, .cust, .fin {
+    border-right: 1px solid rgba(202, 198, 198, 0.5);
+}
+.cust {
+   border-bottom: 1px solid rgba(202, 198, 198, 0.5);
+}
+
+.smarkg, .cust, .emcl, .fin {
+  margin: 10px;
+}
+
+
+
+
+body .zohoapp .section .smark {
+    grid-area: smark;
+    
+}
+.s1 {
+    margin: 10px 10px 10px 10px ;    
+    line-height: 1.6;
+
+}
+
+
+body .zohoapp .section .cust {
+    grid-area: cust;
+
+}
+
+
+body .zohoapp .section .emcl {
+    grid-area: emcl;
+
+}
+
+body .zohoapp .section .fin {
+    grid-area: fin;
+
+}
+
+body .zohoapp .section div div h3, .c2 {
+    font-family: 'Albert Sans';
+    font-weight:900;
+    font-size: 24px;
+}
+body .zohoapp .section div div p, .c1 {
+    font-family: 'Albert Sans';
+    font-weight:900;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 0px 48px 0px 48px;
+
+}
+
+
+/* salece and marketing default content */
+
+body .zohoapp .section .smark .smarkg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px 125px;
+    position: relative;
+}
+body .zohoapp div div div div {
+padding-top: 30px;
+cursor: pointer;
+}
+
+.zohoapp .section div div div:hover {
+    border-bottom: 1px solid pink;
+}
+
+body .zohoapp .section div div div a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 20px 10px 10px 10px;
+}
+
+body .zohoapp .section div div div a p {
+    font-size: 10px;
+    opacity: 0.7;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+body .zohoapp .section div div div a span {
+    margin:  auto auto 5px auto;
+    display: block;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+    width: 33px;
+    height: 33px;
+}
+/* CRM */
+
+.crms{
+    grid-column: span 2;
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+}
+
+.crms a span {
+    position: relative;
+    bottom: 19px;
+    width: 64px;
+    height: 64px;
+    background-position: -1048px 2px;
+    background-size: auto 346px;
+    
+}
+.crms a p{
+    position: relative;
+    bottom: 19px;
+}
+
+/* CRM */
+
+/* bigis */
+.bigs {
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.bigs a span {
+   
+    background-position: 1px -813px;
+    background-size: auto 346px;
+    
+
+}
+/* bigs */
+
+/* Campaingans */
+.cams {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.cams a span {
+    width: 33px;
+    height: 33px;
+    background-position: -4037px -757px;
+    background-size: auto 348px;
+
+}
+
+/* Campaingans */
+.fors {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.fors a span {
+    width: 33px;
+    height: 33px;
+    background-position: -1989px -757px;
+    background-size: auto 348px;
+
+
+}
+
+/* Campaingans */
+/* sign */
+.sigs {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.sigs a span {
+    width: 33px;
+    height: 33px;
+    background-position: -2019px -757px;
+    background-size: auto 348px;
+
+}
+
+/* sign */
+/* Social */
+.socs {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.socs a span {
+    width: 33px;
+    height: 33px;
+    background-position: -2049px -757px;
+    background-size: auto 348px;
+
+}
+
+/* SalseIQ */
+.sals {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.sals a span {
+    width: 33px;
+    height: 33px;
+    background-position: -2080px -757px;
+    background-size: auto 348px;
+
+}
+
+/* SalseIQ */
+/* SURVEY */
+.surs {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.surs a span {
+    width: 33px;
+    height: 33px;
+    background-position: -2111px -757px;
+    background-size: auto 348px;
+
+}
+
+/* SURVEY */
+/* SITES */
+.sits {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.sits a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3200px -772px;
+    background-size: auto 355px;
+
+}
+/* SITES */
+/* PAGESENSE */
+.pags {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.pags a span {
+    width: 33px;
+    height: 33px;
+    background-position: -1957px -757px;
+    background-size: auto 348px;
+
+}
+/* PAGESENSE */
+/* BACKSTAGE */
+.bacs {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.bacs a span {
+    width: 33px;
+    height: 33px;
+    background-position: -6088px -788px;
+    background-size: auto 348px;
+
+}
+/* COMMERCE */
+.coms {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.coms a span {
+    width: 33px;
+    height: 33px;
+    background-position: -6058px -788px;
+    background-size: auto 348px;
+
+}
+/* BOOKING */
+.boos {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.boos a span {
+    width: 33px;
+    height: 33px;
+    background-position: -9069px -788px;
+    background-size: auto 348px;
+
+}
+/* MARKETING */
+.mars {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.mars a span {
+    width: 33px;
+    height: 33px;
+    background-position: -9101px -788px;
+    background-size: auto 348px;
+
+}
+/* LANDINGPAGE */
+.lans {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.lans s span {
+    width: 33px;
+    height: 33px;
+    background-position: -8969px -819px;
+    background-size: auto 348px;
+
+}
+/* THRIVE */
+.thrs {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.thrs a span {
+    width: 33px;
+    height: 33px;
+    background-position: -8996px -820px;
+    background-size: auto 348px;
+
+}
+
+/*Customer Services */
+
+
+
+/* Customer Services  default content */
+
+
+/*DESK*/
+
+body .zohoapp .section .cust .custc{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px;
+    position: relative; 
+}
+
+
+.desc{
+        grid-column: span 2;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        border-right: 1px solid rgba(202, 198, 198, 0.25);
+        border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    }
+.desc a span {
+        position: relative;
+        bottom: 19px;
+        width: 64px;
+        height: 64px;
+        grid-column: span 2;
+        background-position: -2159px 2px;
+        background-size: auto 346px;
+    }
+
+.desc a p{
+        position: relative;
+        bottom: 19px;
+    }
+/*DESK*/
+/*ASSIST*/
+
+.assc {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.assc span {
+    width: 33px;
+    height: 33px;
+    background-position: -2049px -788px;
+    background-size: auto 348px;
+}
+
+/*ASSIST*/
+/* LENS */
+
+.lenc {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.lenc span {
+    width: 33px;
+    height: 33px;
+    background-position: -28px -813px;
+    background-size: auto 346px;
+
+}
+
+/*Finance */
+
+/* Finance  default content */
+
+/*Books*/
+
+body .zohoapp .section .fin .finf{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px;
+    position: relative; 
+}
+
+
+.boof{
+        grid-column: span 2;
+        position: relative;
+        border-right: 1px solid rgba(202, 198, 198, 0.25);
+        border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    }
+.boof a span {
+    position: relative;
+    bottom: 19px;
+        width: 64px;
+        height: 64px;
+        background-position: 0px 2px;
+        background-size: auto 346px;
+        
+    }
+.boof a p {
+    position: relative;
+        bottom: 19px;
+}
+
+/*Books*/
+/*INVENTORY*/
+
+.invf {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.invf a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3294px -772px;
+    background-size: auto 355px;
+}
+
+/*INVENTORY*/
+/* INVIOCE */
+
+.invff {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+        border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.invff a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3327px -772px;
+    background-size: auto 355px;
+}
+
+/*INVIOCE*/
+/* SUBSCRIPTIOP */
+
+.subf {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+        border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.subf a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3359px -772px;
+    background-size: auto 355px;
+}
+
+/* SUBSCRIPTIOP */
+
+/* EXPENCE */
+
+.expf {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.expf a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3390px -772px;
+    background-size: auto 355px;
+}
+
+/* EXPENCE */
+/* CHECKOUT */
+.chef {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.chef a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3421px -772px;
+    background-size: auto 355px;
+
+}
+
+/* CHECKOUT */
+/* PAYROLL */
+
+.payf {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.payf a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3515px -804px;
+    background-size: auto 355px;
+
+}
+/* PAYROLL */
+/* Email & Collaboration */
+body .zohoapp .section .emcl .emcle{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px 125px;
+    position: relative; 
+}
+
+/* MAIL */
+.maie {
+    grid-column: span 2;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+
+.maie a span {
+    position: relative;
+    bottom: 19px;
+    width: 64px;
+    height: 64px;
+    background-position: 2284px -108px;
+    background-size: auto 638px;
+    
+}
+.maie a p {position: relative;
+        bottom: 19px;
+}
+
+/* MAIL */
+/* MEETING */
+
+.meee {
+    position: relative;
+
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.meee a span {
+    width: 33px;
+    height: 33px;
+    background-position: 0px -804px;
+    background-size: auto 355px;
+}
+/* MEETING */
+/* CLIQ */
+
+.clie {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.clie a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3517px -774px;
+    background-size: auto 355px;
+}
+
+/* CLIQ */
+/* Voice */
+
+.voie {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.voie a span {
+    width: 33px;
+    height: 33px;
+    background-position: -8823px -819px;
+    background-size: auto 348px;
+}
+/* Voice */
+/* wore */
+
+.wore {
+    position: relative;
+    
+
+}
+.wore a span {
+    width: 33px;
+    height: 33px;
+    background-position: -9131px -788px;
+    background-size: auto 348px;
+
+}
+/* wore */
+/* wrieter */
+
+.wrie {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.wrie a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3580px -774px;
+    background-size: auto 355px;
+
+}
+
+/* sheet */
+
+.shee {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.shee a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3612px -774px;
+    background-size: auto 355px;
+
+}
+
+/* shoew */
+
+.shoe {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.shoe a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3642px -772px;
+    background-size: auto 355px;
+
+}
+
+/* proeject */
+
+.proe {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.proe a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3677px -772px;
+    background-size: auto 355px;
+
+}
+
+/* spre */
+
+.spre {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.spre a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3707px -772px;
+    background-size: auto 355px;
+
+}
+
+/* buke */
+
+.buke {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.buke a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3739px -772px;
+    background-size: auto 355px;
+
+}
+/* cone */
+
+.cone {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.cone a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3769px -772px;
+    background-size: auto 355px;
+
+}
+/* shte */
+
+.shte {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.shte a span {
+    width: 33px;
+    height: 33px;
+    background-position: -63px -804px;
+    background-size: auto 355px;
+
+}
+
+/* note */
+
+.note {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.note a span {
+    width: 33px;
+    height: 33px;
+    background-position: -95px -804px;
+    background-size: auto 355px;
+
+}
+
+/* teae */
+
+.teae {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.teae a span {
+    width: 33px;
+    height: 33px;
+    background-position: -253px -835px;
+    background-size: auto 355px;
+
+
+}
+
+/* zepe */
+
+.zepe {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.zepe a span {
+    width: 33px;
+    height: 33px;
+    background-position: -285px -835px;
+    background-size: auto 355px;
+
+}
+/* leae */
+
+.leae {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+    
+
+}
+.leae a span {
+    width: 33px;
+    height: 33px;
+    background-position: -351px -835px;
+    background-size: auto 355px;
+
+}
+/* cale */
+
+.cale {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.cale a span {
+    width: 33px;
+    height: 33px;
+    background-position: -3739px -805px;
+    background-size: auto 355px;
+
+}
+
+
+/* sectiom 2*/
+
+body .zohoapp .section2 {
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px 200px 220px;
+    grid-template-areas: 
+    "human secure custom"
+    "human secure custom"
+    "legal secure custom"
+    "legal secure buss"
+    "legal secure buss"
+    ;
+
+}
+body .zohoapp .section2 .human{
+    grid-area: human;
+}
+
+body .zohoapp .section2 .secure{
+    grid-area: secure;
+}
+body .zohoapp .section2 .custom{
+    grid-area: custom;
+}
+body .zohoapp .section2 .legal{
+    grid-area: legal;
+}
+body .zohoapp .section2 .buss{
+    grid-area: buss;
+}
+
+.human, .secure, .legal {
+    border-right: 1px solid rgba(202, 198, 198, 0.5);
+}
+.human, .custom{
+   border-bottom: 1px solid rgba(202, 198, 198, 0.5);
+}
+
+.human1 {
+  margin: 10px;
+}
+
+body .zohoapp .section2 div div h3, .c2 {
+    font-family: 'Albert Sans';
+    font-weight:900;
+    font-size: 24px;
+}
+body .zohoapp .section2 div div p, .c1 {
+    font-family: 'Albert Sans';
+    font-weight:900;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 0px 48px 0px 48px;
+
+}
+
+
+/* Human Resources */
+
+body .zohoapp .section2  .human .human1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    position: relative;
+}
+body .zohoapp .section2 div div div {
+padding-top: 30px;
+cursor: pointer;
+}
+
+.zohoapp .section2 div div div:hover {
+    border-bottom: 1px solid pink;
+}
+
+body .zohoapp .section2 div div div a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 20px 10px 10px 10px;
+}
+
+body .zohoapp .section2 div div div a p {
+    font-size: 10px;
+    opacity: 0.7;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+body .zohoapp .section2 div div div a span {
+    margin:  auto auto 5px auto;
+    display: block;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+
+}
+.secure1 {
+    margin: 10px;
+}
+/* RECRUIT */
+
+.rech{
+    grid-column: span 2;
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+}
+
+.rech a span {
+    position: relative;
+    bottom: 19px;
+    width: 64px;
+    height: 64px;
+    grid-column: span 2;
+    background-position: -2220px 2px;
+    background-size: auto 346px;
+    
+}
+.rech a p{
+    position: relative;
+    bottom: 19px;
+}
+
+/* RECRUIT */
+
+/* PEOPLE */
+.peph {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.peph span {
+    width: 33px;
+    height: 33px;
+    background-position: -4068px -787px;
+    background-size: auto 348px;
+    
+
+}
+/* PEOPLE */
+
+/* WORKRLY */
+.worh {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+   
+
+}
+.worh span {
+    width: 33px;
+    height: 33px;
+    background-position: -3485px -804px;
+    background-size: auto 355px;
+}
+
+/* WORKRLY */
+.bach {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+   
+
+}
+.bach span {
+    width: 33px;
+    height: 33px;
+    background-position: -2088px -848px;
+    background-size: auto 360px;
+}
+
+/* BACKTOWORK */
+/* SHIFT */
+.shih {
+    position: relative;
+    
+    
+
+}
+.shih span {
+    width: 33px;
+    height: 33px;
+    background-position: -8941px -821px;
+    background-size: auto 348px;
+}
+
+/* SHIFT */
+
+/*Security & IT Management*/
+
+body .zohoapp .section2  .secure .secure1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    position: relative;
+}
+
+
+/* RECRUIT */
+
+.vaus{
+    grid-column: span 2;
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+}
+
+.vaus a span {
+    position: relative;
+    bottom: 19px;
+    width: 64px;
+    height: 64px;
+    grid-column: span 2;
+    background-position: -2241px 66px;
+    background-size: auto 346px;
+    
+}
+.vaus a p{
+    position: relative;
+    bottom: 19px;
+}
+
+/* RECRUIT */
+
+/* SERVICEDESK PLUS */
+.sers {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.sers span {
+    width: 33px;
+    height: 33px;
+    background-position: -2080px -788px;
+    background-size: auto 348px;
+    
+
+}
+/* SERVICEDESK PLUS */
+
+/* MOBILE DEVICE MANAGEMENT */
+.mobs {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+   
+
+}
+.mobs span {
+    width: 33px;
+    height: 33px;
+    background-position: -2113px -788px;
+    background-size: auto 348px;
+
+}
+/* MOBILE DEVICE MANAGEMENT */
+/* PATCH MANAGER PLUS */
+.pats {
+    position: relative;
+    
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.pats span {
+    width: 33px;
+    height: 33px;
+    background-position: -3423px -805px;
+    background-size: auto 355px;
+
+
+}
+
+/* PATCH MANAGER PLUS */
+/* REMOTE ACCESS PLUS */
+.rems {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+    
+
+}
+.rems span {
+    width: 33px;
+    height: 33px;
+    background-position: -63px -836px;
+    background-size: auto 355px;
+
+
+}
+
+/* REMOTE ACCESS PLUS */
+/* SITE24X7 */
+.sitss {
+    position: relative;
+    
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.sitss span {
+    width: 33px;
+    height: 33px;
+    background-position: -2144px -788px;
+    background-size: auto 348px;
+
+}
+
+/* SITE24X7 */
+/* CLOUD SIEM */
+.clos {
+    position: relative;
+    
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+
+}
+.clos span {
+    width: 33px;
+    height: 33px;
+    background-position: -3675px -805px;
+    background-size: auto 355px;
+
+}
+/* CLOUD SIEM */
+
+/* IDENTITY MANAGERMEN */
+.ides {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.ides span {
+    width: 33px;
+    height: 33px;
+    background-position: -3707px -805px;
+    background-size: auto 355px;
+}
+
+/* IDENTITY MANAGERMEN */
+/* ENDPINT CENTRA */
+.ends {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.ends span {
+    width: 33px;
+    height: 33px;
+    background-position: -2049px -819px;
+    background-size: auto 348px;
+}
+
+/* ENDPINT CENTRAS */
+
+/* DOMAIN TOOLKIT */
+.doms {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.doms span {
+    width: 33px;
+    height: 33px;
+    background-position: -318px -835px;
+    background-size: auto 355px;
+}
+
+/* DOMAIN TOOLKIT */
+
+
+/*Custom Solutions*/
+
+body .zohoapp .section2  .custom .custom1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    position: relative;
+}
+
+/* CREATOR */
+
+.crec{
+    grid-column: span 2;
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+}
+
+.crec a span {
+    position: relative;
+    bottom: 19px;
+    width: 64px;
+    height: 64px;
+    background-position: -204px 0px;
+    background-size: auto 379px;
+    
+}
+.crec a p{
+    position: relative;
+    bottom: 19px;
+}
+
+/* CREATOR */
+
+/* CATALYST*/
+.catc {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.catc span {
+    width: 33px;
+    height: 33px;
+    background-position: -150px 33px;
+    background-size: auto 190px;
+    
+
+}
+/* CATALYST */
+
+/* FLOW*/
+.floc {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+   
+
+}
+.floc span {
+    width: 33px;
+    height: 33px;
+    background-position: -5994px -788px;
+    background-size: auto 348px;
+
+
+}
+/* FLOW */
+/* OFFICE INTEGRATOR */
+.offc {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+   
+
+}
+.offc span {
+    width: 33px;
+    height: 33px;
+    background-position: -6117px -788px;
+    background-size: auto 348px;
+}
+
+
+
+/* OFFICE INTEGRATOR */
+/* QNTRL*/
+.qntc {
+    position: relative;
+    
+    
+
+}
+.qntc span {
+    width: 33px;
+    height: 33px;
+    background-position: -379px -835px;
+    background-size: auto 355px;
+
+
+}
+
+/* QNTRL*/
+/* RESEARCHSTUDIO */
+.resc {
+    position: relative;
+    
+    
+
+}
+.resc span {
+    width: 33px;
+    height: 33px;
+    background-position: -9024px -819px;
+    background-size: auto 348px;
+}
+
+/* RESEARCHSTUDIO */
+/* APPTICS */
+.appc {
+    position: relative;
+    
+    
+
+}
+.appc span {
+    width: 33px;
+    height: 33px;
+    background-position: -9054px -819px;
+    background-size: auto 348px;
+}
+/* CLOUD SIEM */
+
+
+/*Business Intelligence*/
+
+body .zohoapp .section2  .buss .buss1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    position: relative;
+}
+
+/* CREATOR */
+
+.anab{
+    grid-column: span 2;
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+}
+
+.anab a span {
+    position: relative;
+    bottom: 19px;
+    width: 64px;
+    height: 64px;
+    grid-column: span 2;
+    background-position: 338px 0px;
+    background-size: auto 379px;
+    
+}
+.anab a p{
+    position: relative;
+    bottom: 19px;
+}
+
+/* CREATOR */
+
+/* CATALYST*/
+.datb {
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+    
+
+}
+.datb span {
+    width: 33px;
+    height: 33px;
+    background-position: -9012px -829px;
+    background-size: auto 352px;
+}
+    
+
+
+/* CATALYST */
+
+/* FLOW*/
+.embb {
+    position: relative;
+    border-right: 1px solid rgba(202, 198, 198, 0.25);
+   
+
+}
+.embb span {
+    width: 33px;
+    height: 33px;
+    background-position: -8983px -829px;
+    background-size: auto 352px;
+
+
+}
+/* FLOW */
+
+
+/*Legal*/
+
+body .zohoapp .section2  .legal .legal1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    position: relative;
+}
+body .zohoapp .section2 .legal .legal1 div {
+padding-top: 30px;
+cursor: pointer;
+}
+
+.zohoapp .section2 .leae .legal1 div:hover {
+    border-bottom: 1px solid pink;
+}
+
+body .zohoapp .section2 .legal .legal1 div a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 20px 10px 10px 10px;
+}
+
+body .zohoapp .section2 .legal .legal1 div a p {
+    font-size: 10px;
+    opacity: 0.7;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+body .zohoapp .section2 .legal .legal1 div a span {
+    margin:  auto auto 5px auto;
+    display: block;
+    background-image: url('./image/zp-global-icon-sprite-2x.png');
+
+}
+.legal1{
+    margin: 0px 100px 0px 100px;
+}
+/* CONTRACTS */
+
+.conl{
+    grid-column: span 3;
+    position: relative;
+    border-bottom: 1px solid rgba(202, 198, 198, 0.25);
+}
+
+.conl a span {
+    position: relative;
+    bottom: 19px;
+    width: 64px;
+    height: 64px;
+    grid-column: span 2;
+    background-position: 0px 68px;
+    background-size: auto 353px;
+
+    
+}
+.conl a p{
+    position: relative;
+    bottom: 19px;
+}
+
+
+
+/* CONTRACTS */
+
+body .background {
+
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    border: 2px black;
+    margin: 100px auto 125px auto;
+    text-align: center;
+}
+
+body .background img {
+    width: 180px;
+    margin: auto;
+    z-index: 1;
+}
+
+body .background div {
+    position: relative;
+    bottom: 153px;
+    z-index: 2;
+    color: white;
+    line-height: 1.6;
+    
+}
+body .background div h1 {
+    font-family: 'Amaranth';font-size: 22px;
+}
+
+body .background div button {
+    background-color: rgba(0, 0, 0, 0);
+    width: 120px;
+    height: 30px;
+    color: rgb(227, 83, 47);
+    border: 2px solid rgb(227, 64, 23);;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.he3 {
+    font-size: 39px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.all {
+    width: 100%;
+    display: block;
+    height: 300px;
+}
+.all2 {
+    display: block;
+    width: 50%;
+    height: 294px;
+    position: relative;
+    margin: auto;
+    float: left;
+    left: 120px;
+}
+
+
+.all3 {
+    width: 50%;
+    height: 294px;
+    display: block;
+    float: left;
+    padding-top: 45px;
+  padding-left: 50px;
+
+  
+}
+.all3  div table tr {
+    margin-bottom: 30px;
+}
+.all3  div table tr th {
+    width: 180px;
+    height: 60px;
+    text-align: left;
+    
+  
+}
+.all3  div table tr th  a {
+    color: rgb(3, 171, 243);
+    font-size: 13px;
+}
+.all3  div table tr th span {
+    display: block;
+    background-image: url('./image/zoho-customers-top-brands.png');
+}
+.all3  div table tr th .hyatt {
+    width: 108px;
+    height: 40px;
+    background-position: 109px 10px;
+    background-size: auto 288px;
+}
+.all3  div table tr th .kpmg {
+    width:69px;
+    height: 40px;
+    background-position: -143px 7px;
+    background-size: auto 288px;
+}
+.all3  div table tr th .loreal {
+
+    width: 108px;
+    height: 40px;
+    background-position: -441px -42px;
+    background-size: auto 294px;
+} 
+.all3  div table tr th .mahindra {
+
+    width: 108px;
+    height: 40px;
+    background-position: -99px -33px;
+    background-size: auto 253px;
+} 
+.all3  div table tr th .tata {
+
+    width: 133px;
+    height: 40px;
+    background-position: -114px -78px;
+    background-size: auto 289px;
+} 
+.all3  div table tr th .suzuki {
+
+    width: 31px;
+    height: 40px;
+    background-position: -397px 0px;
+    background-size: auto 271px;
+} 
+.img1 {
+    width: 522px;
+    margin: auto;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.73) 100%);
+    opacity: 1;
+
+}
+.wit {
+    width: 480px;
+    position: relative;
+    bottom: 106px;
+    margin-left: 20px;
+    color: white;
+    line-height: 1.5;
+    
+}
+
+
+
+.wit h2 {
+    font-family: 'Acme';
+    font-size: 19px;
+
+}
+.wit p {
+    font-size: 11px;
+}
+.wit p span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.wit button {
+    background-color: orangered;
+    color: white;
+    font-size: 11px;
+    width: 70px;
+    height: 20px;
+    border: none;
+    position: relative;
+    left: 416px;
+    bottom: 24px;
+}
+
+.sub {
+    width: 900px;
+    height: 300px;
+    margin: 100px auto auto auto;
+}
+
+.sub .gd {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 40px;
+}
+
+.sub .gd div {
+    line-height: 1.5;
+    padding: auto 25px;
+}
+.sub .gd div h3 {
+    padding-bottom: 13px;
+    font-family: "Acme";
+}
+.sub .gd div div span {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-image: url('./image/zh-sprite-2x-new.png');
+
+}
+.ht {
+    position: relative;
+    top: 9px;
+    left: 9px;
+}
+.ht1 {
+    margin-top: 9px;
+}
+
+
+.build {
+
+
+    background-size: auto 115px;
+    background-position: -490px 71px;
+
+}
+.install {
+
+
+    background-size: auto 115px;
+    background-position: -460px 71px;
+
+}
+.sub .gd div a {
+    color: rgb(3, 171, 243);
+
+}
+
+
+.last {
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+    min-height: 700px;
+    
+}
+.last1 {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    text-align:left;
+}
+
+.div21 {
+    vertical-align: baseline;
+    font-variant-ligatures: none;
+    box-sizing: border-box;
+    display:inline-table;
+    position: relative;
+    width: 235px;
+    text-align: left;
+    padding-right: 35px;
+    line-height: 2;
+    color: rgb(230, 227, 227);
+}
+
+.last1 div ul {
+    list-style-type: none;
+
+} 
+.last1 div h2 {
+    font-size: 20px;
+    font-family: 'Acme';
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.last1 div ul li a {
+    text-decoration: none;
+    color: rgb(230, 227, 227);
+}
+.abc {
+    max-width: 1000px;
+    height:43.5px ;
+    margin:50px auto;
+
+}
+.sear {
+   width: 90%;
+   height: 100%;
+   padding: 12px 60px 12px 12px;
+   background-color: rgb(54, 53, 53);
+   border: 1px rgba(249, 245, 245,0.5) solid ; 
+    
+}
+.button22 {
+    box-sizing: border-box;
+    display: inline;
+    width: 4.4%;
+    height:94%;
+    position: relative;
+    top: 15px;
+    right: 50px;
+    background-color:black;
+    border: none; 
+    background-image: url('./image/help-new-sprite.png');
+    background-position: -185px -27px;
+    background-size: auto 65px;
+    padding: 1px 6px;
+}
+
+.ul2 {
+    text-align: center;
+    padding-bottom:30px
+}
+
+.ul2 li{
+    display: inline-block;
+    padding: 0px 5px;
+  
+ 
+}
+.a5 {
+    border-right: 1px rgba(249, 245, 245,0.5) solid ; 
+
+}
+.ul2 li a {
+    font-size: 11px;
+    text-decoration: none;
+    color: rgb(230, 227, 227); 
+}
+
+.copy p {
+    font-size: 11px;
+    color: rgb(230, 227, 227); 
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+.zlan {
+    display: inline-block;
+    width: 22px;
+    height:15px;
+    background-image: url('./image/zh-language-sprite.png');
+    background-position: 0px -15px;
+    background-size: auto 30px;
+    vertical-align: sub;
+    
+}
+
+.last .it1 p  {
+    text-align: center;
+}
+
+.last .it1 p span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("./image/zh-sprite-2x-new.png");
+}
+
+.last .it1 .twit{
+
+    background-size: auto 115px;
+    background-position: -773px 34px;
+}
+
+.last .it1 .fb{
+
+    background-size: auto 115px;
+    background-position: -709px 34px;
+}
+.last .it1 .yout{
+
+    background-size: auto 115px;
+    background-position: -740px 34px;
+}
+.last .it1 .inded{
+
+    background-size: auto 115px;
+    background-position: -802px 34px;
+}
+
+.last .it1 .insta{
+
+    background-size: auto 115px;
+    background-position: -835px 34px
+}
+

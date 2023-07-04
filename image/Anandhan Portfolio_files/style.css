@@ -1,0 +1,213 @@
+* {
+  box-sizing: inherit;
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  color: rgb(182, 183, 183);
+}
+
+body {
+  display: block;
+  position: relative;
+}
+.my-bio {
+  width: 100%;
+  height: 76rem;
+}
+.menu-ani {
+  animation-name: navbar;
+  animation-duration: 2s;
+}
+@keyframes navbar {
+  from {
+    top: -150px;
+  }
+  to {
+    top: 0px;
+  }
+}
+.mamue1 {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(204, 227, 227);
+  z-index: 5;
+}
+.hidden {
+  display: none;
+}
+
+.mamue {
+  display: flex;
+  align-items: center;
+  height: 12.5rem;
+
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.myimage {
+  position: relative;
+  right: 10vh;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  background-image: url("./image/Myimage.jpg");
+  background-size: 7.5rem 7.5rem;
+  background-repeat: no-repeat;
+}
+
+.navmanue > ul {
+  text-decoration-style: none;
+}
+
+.navmanue > ul > li {
+  position: relative;
+  left: 15vh;
+  display: inline-block;
+  text-decoration-style: none;
+  font-size: 2rem;
+  padding-right: 5rem;
+}
+
+.navmanue > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.bio {
+  position: relative;
+  width: 100%;
+  background-image: url(./image/web.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75rem;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.bio1 {
+  z-index: 2;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.bio > .myname {
+  position: absolute;
+  color: white;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -90%);
+  padding: 2rem;
+}
+.bio > .myname > h2 {
+  padding-bottom: 3rem;
+  font-weight: 400;
+  font-family: "Allura";
+  font-size: 5rem;
+  color: black;
+}
+.bio > .myname > p {
+  font-family: "Annie Use Your Telescope";
+  font-size: 2.5rem;
+}
+
+.self {
+  width: 40rem;
+  margin: 10rem auto auto auto;
+  text-align: center;
+  align-items: center;
+}
+.slef-img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+.hr {
+  margin: 10rem auto;
+  width: 6rem;
+  border-top: dotted 7px rgb(193, 191, 191);
+  border-bottom: none;
+  letter-spacing: 5rem;
+
+  border-spacing: 5rem;
+}
+.p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.hi {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: rgb(204, 227, 227);
+  font-size: 3rem;
+}
+
+.h {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  color: rgb(148, 178, 178);
+  font-weight: 100;
+}
+
+.design {
+  align-items: center;
+
+  display: flex;
+  width: 70rem;
+  margin: 10rem auto auto auto;
+}
+.design-row {
+  flex-direction: row;
+}
+.design-row1 {
+  flex-direction: row-reverse;
+}
+.design-image {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.design-me {
+  width: 15rem;
+  height: 15rem;
+}
+
+.design-me1 {
+  display: block;
+  position: relative;
+  width: 8.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  background-image: url("./image/Design.png");
+  background-size: 80px 300px;
+  background-position: 4px -10px;
+}
+
+.hr1 {
+  width: 6rem;
+  height: 1px;
+  border-top: solid rgb(204, 227, 227);
+  border-left: none;
+  border-right: none;
+  bottom: none;
+}
+
+.design-cont {
+  margin-left: 5rem;
+}
+
+.h3 {
+  color: rgb(204, 227, 227);
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+.p3 {
+  font-size: 1.75rem;
+}

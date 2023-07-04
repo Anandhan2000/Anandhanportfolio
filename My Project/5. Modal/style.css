@@ -1,0 +1,127 @@
+* {
+  box-sizing: inherit;
+  padding: 0%;
+  margin: 0%;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  background: linear-gradient(to top left, green, yellow);
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 1.5;
+  color: black;
+  background-repeat: no-repeat;
+}
+
+.showmodal-1,
+.showmodal-2,
+.showmodal-3 {
+  margin: 5rem 3rem;
+  padding: 2rem 5rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.5rem;
+}
+.hidden {
+  display: none;
+}
+.model {
+  position: absolute;
+  width: 70%;
+  background-color: white;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 6rem;
+  box-shadow: 0rem 5rem 3rem black;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: white;
+  font-size: 3rem;
+  padding-right: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  backdrop-filter: blur(2px);
+}
+.guess {
+  z-index: 15;
+}
+
+.guess2 {
+  z-index: 15;
+  width: 120rem;
+  height: 60rem;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.x {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  padding: 2rem;
+  right: 0%;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.dice-game {
+  z-index: 15;
+}
+
+.di {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  padding: 2rem;
+  right: 0%;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.dice1 {
+  z-index: 15;
+  width: 120rem;
+  height: 55rem;
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 192, 203, 0.5);
+  z-index: 2;
+  backdrop-filter: blur(2px);
+}

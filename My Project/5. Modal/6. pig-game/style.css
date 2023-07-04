@@ -1,0 +1,135 @@
+* {
+  box-sizing: inherit;
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  font-size: 50%;
+}
+
+body {
+  background: linear-gradient(to top left, rgb(170, 5, 96), rgb(207, 156, 165));
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  position: absolute;
+  width: 100rem;
+  height: 60rem;
+  border: black;
+  font-family: 'Aleo';
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-around;
+}
+.player1 {
+  text-align: center;
+
+  background-color: rgb(230, 133, 165, 0.6);
+  width: 50rem;
+  justify-content: center;
+}
+
+.player2 {
+  text-align: center;
+  background-color: rgb(230, 133, 165, 0.6);
+
+  width: 50rem;
+
+  align-items: center;
+}
+
+.player-name {
+  color: rgb(67, 66, 66);
+  padding-top: 10rem;
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.player-totscr {
+  color: rgb(219, 12, 81);
+  padding-top: 5rem;
+  font-size: 7rem;
+  font-weight: 50;
+}
+
+.player-cur {
+  background-color: rgb(219, 12, 81);
+  width: 22rem;
+  padding: 1.5rem;
+  margin: 10rem auto auto auto;
+  color: white;
+}
+.player-c {
+  font-size: 2rem;
+}
+
+.player-cv {
+  padding-top: 2rem;
+  font-size: 2.5em;
+}
+
+.cen-btn {
+  position: absolute;
+}
+.reload-game {
+  top: 3rem;
+  width: 22rem;
+  height: 4rem;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 3rem;
+}
+
+.dice {
+  margin: auto;
+  top: 20rem;
+  width: 10rem;
+  height: 10rem;
+}
+.roll-dice {
+  top: 37rem;
+  width: 20rem;
+  height: 4rem;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 3rem;
+}
+
+.hold-value {
+  top: 45rem;
+  width: 14rem;
+  height: 4rem;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 3rem;
+}
+.hidden {
+  display: none;
+}
+
+.player-active {
+  background-color: rgb(233, 210, 210);
+}
+
+.cen-btn:focus {
+  outline: none;
+}
+
+.congrats {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-family: 'Aleo';
+  color: rgb(219, 12, 81);
+}

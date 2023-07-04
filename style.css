@@ -1,0 +1,493 @@
+* {
+  box-sizing: inherit;
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 70.5%;
+  color: rgb(182, 183, 183);
+  line-height: 2.5rem;
+}
+m body {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+.my-bio {
+  display: flex;
+  width: 100vw;
+  height: 76rem;
+  margin: auto;
+}
+.menu-ani {
+  animation-name: navbar;
+  animation-duration: 2s;
+}
+@keyframes navbar {
+  from {
+    top: -150px;
+  }
+  to {
+    top: 0px;
+  }
+}
+.mamue1 {
+  width: 100vw;
+  position: fixed;
+  background-color: rgb(204, 227, 227);
+  z-index: 5;
+}
+.hidden {
+  display: none;
+}
+
+.mamue {
+  display: flex;
+  align-items: center;
+  height: 12.5rem;
+
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.myimage {
+  position: relative;
+  right: 10vh;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  background-image: url("./image/Myimage.jpg");
+  background-size: 7.5rem 7.5rem;
+  background-repeat: no-repeat;
+}
+
+.navmanue > ul {
+  text-decoration-style: none;
+}
+
+.navmanue > ul > li {
+  position: relative;
+  left: 15vh;
+  display: inline-block;
+  text-decoration-style: none;
+  font-size: 2rem;
+  padding-right: 5rem;
+}
+
+.navmanue > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.bio {
+  position: relative;
+  display: block;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75rem;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.bio1 {
+  z-index: 2;
+  background-color: rgb(204, 227, 227);
+}
+.buttons {
+  position: absolute;
+  outline: none;
+}
+.buttons > a {
+  border: none;
+  text-decoration: none;
+}
+.button1 {
+  z-index: 2;
+  left: 20%;
+  top: 30%;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: black;
+  font-family: "Alex Brush";
+  font-weight: 800;
+  font-size: 2rem;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move1 {
+  0% {
+    top: 20%;
+    left: 30%;
+  }
+  20% {
+    top: 20.5%;
+    left: 30.5%;
+  }
+  40% {
+    top: 19.5%;
+    left: 30%;
+  }
+  60% {
+    top: 20%;
+    left: 29.5%;
+  }
+  80% {
+    top: 20.5%;
+    left: 30.5%;
+  }
+  100% {
+    top: 20%;
+    left: 30%;
+  }
+}
+.button2 {
+  z-index: 2;
+  right: 20%;
+  top: 35%;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: none;
+  font-size: large;
+  font-family: "Alex Brush";
+  font-weight: 800;
+  animation-name: move2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.aimg {
+  width: 9rem;
+  height: 9rem;
+}
+@keyframes move2 {
+  0% {
+    top: 20%;
+    right: 35%;
+  }
+  20% {
+    top: 20.2%;
+    right: 35.2%;
+  }
+  40% {
+    top: 19.8%;
+    right: 35%;
+  }
+  60% {
+    top: 20%;
+    right: 34.8%;
+  }
+  80% {
+    top: 20.2%;
+    right: 35.2%;
+  }
+  100% {
+    top: 20%;
+    right: 35%;
+  }
+}
+.button3 {
+  z-index: 2;
+  left: 25%;
+  top: 60%;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: pink;
+  font-family: "Alex Brush";
+  font-weight: 800;
+  font-size: 8rem;
+  animation-name: move3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes move3 {
+  0% {
+    top: 60%;
+    left: 25%;
+  }
+  20% {
+    top: 60.5%;
+    left: 25.5%;
+  }
+  40% {
+    top: 59.5%;
+    left: 25%;
+  }
+  60% {
+    top: 60%;
+    left: 24.5%;
+  }
+  80% {
+    top: 61%;
+    left: 25.5%;
+  }
+  100% {
+    top: 60%;
+    left: 25%;
+  }
+}
+.button4 {
+  z-index: 2;
+  right: 25%;
+  top: 70%;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: none;
+  color: rgb(58, 227, 58);
+  background-color: white;
+  font-family: "Alex Brush";
+  font-weight: 800;
+  font-size: 4rem;
+  animation-name: move4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move4 {
+  0% {
+    top: 70%;
+    right: 25%;
+  }
+  20% {
+    top: 70.2%;
+    right: 25.2%;
+  }
+  40% {
+    top: 69.8%;
+    right: 25%;
+  }
+  60% {
+    top: 70%;
+    right: 24.8%;
+  }
+  80% {
+    top: 70.2%;
+    right: 25.2%;
+  }
+  100% {
+    top: 70%;
+    right: 25%;
+  }
+}
+
+.bio > .myname {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  padding: 2rem;
+  margin: auto;
+}
+.bio > .myname > h2 {
+  padding-bottom: 3rem;
+  font-weight: 400;
+  font-family: "Allura";
+  font-size: 5rem;
+  color: black;
+}
+.bio > .myname > p {
+  font-family: "Annie Use Your Telescope";
+  font-size: 2.5rem;
+}
+
+.self {
+  width: 50rem;
+  margin: 10rem auto auto auto;
+  text-align: center;
+  align-items: center;
+}
+.slef-img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+.hr {
+  margin: 10rem auto;
+  width: 6rem;
+  border-top: dotted 7px rgb(193, 191, 191);
+  border-bottom: none;
+  letter-spacing: 5rem;
+
+  border-spacing: 5rem;
+}
+.p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.hi {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: rgb(204, 227, 227);
+  font-size: 3rem;
+}
+
+.h {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  color: rgb(148, 178, 178);
+  font-weight: 100;
+}
+
+.design {
+  align-items: center;
+
+  display: flex;
+  width: 70rem;
+  margin: 10rem auto auto auto;
+}
+.design-row {
+  flex-direction: row;
+}
+.design-row1 {
+  flex-direction: row-reverse;
+}
+.design-image {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.design-imagerow1 {
+  flex-direction: row;
+}
+.design-me {
+  width: 15rem;
+  height: 15rem;
+}
+
+.design-me1 {
+  display: block;
+  position: relative;
+  width: 8.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+
+  background-size: 80px 300px;
+  background-position: 9px -6px;
+}
+.des {
+  background-image: url("./image/Design.png");
+  animation-name: updown;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+.dev {
+  background-image: url("./image/dev.png");
+  animation-name: updown;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes updown {
+  0% {
+    background-position: 9px -6px;
+  }
+  33% {
+    background-position: 9px 93px;
+  }
+  66.6% {
+    background-position: 9px 201px;
+  }
+  100% {
+    background-position: 9px 294px;
+  }
+}
+
+.hr1 {
+  width: 6rem;
+  height: 1px;
+  border-top: solid rgb(204, 227, 227);
+  border-left: none;
+  border-right: none;
+  bottom: none;
+}
+
+.design-cont {
+  margin-left: 5rem;
+}
+
+.design-cont1 {
+  margin-right: 5rem;
+}
+
+.h3 {
+  color: rgb(204, 227, 227);
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+.p3 {
+  font-size: 1.75rem;
+}
+.hr2 {
+  margin: 10rem auto;
+  width: 6rem;
+  border-top: dotted 7px rgb(193, 191, 191);
+  border-bottom: none;
+  letter-spacing: 5rem;
+}
+.contact {
+  width: 60rem;
+  margin: auto auto 10rem auto;
+  align-items: center;
+  text-align: center;
+}
+
+.h4 {
+  margin-bottom: 5rem;
+}
+.btn {
+  font-size: 2rem;
+  margin-top: 3rem;
+  background-color: rgb(204, 227, 227);
+  padding: 1rem 2rem;
+  border: none;
+  color: rgb(85, 122, 85);
+}
+
+.mess {
+  width: 2rem;
+  height: 2rem;
+}
+
+.scocial {
+  width: 100%;
+  height: 15rem;
+  background-color: rgb(204, 227, 227);
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.scocial1 {
+  width: 50rem;
+  margin: 10rem auto auto auto;
+}
+
+.li {
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  font-size: 2rem;
+  color: rgb(68, 106, 106);
+}
+.li2 {
+  color: rgb(68, 106, 106);
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+/* work-html*/

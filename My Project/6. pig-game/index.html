@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Aleo"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <main class="main">
+        <section class="player1 player-active">
+          <h1 class="player-name">PLAYER 1</h1>
+          <p class="player-totscr" id="plyaer-score1">0</p>
+          <div class="player-cur">
+            <p class="player-c">CURRENT</p>
+            <p class="player-cv playersc--1">0</p>
+          </div>
+        </section>
+
+        <section class="player2">
+          <h1 class="player-name">PLAYER 2</h1>
+          <p class="player-totscr" id="plyaer-score2">0</p>
+          <div class="player-cur">
+            <p class="player-c">CURRENT</p>
+            <p class="player-cv playersc--2">0</p>
+          </div>
+        </section>
+        <button class="cen-btn reload-game">🔄 NEW GAME</button>
+        <button class="cen-btn roll-dice">🎲 ROLL DICE</button>
+        <button class="cen-btn hold-value">📥 Hold</button>
+        <img src="./dice-1.png" alt="" class="cen-btn dice" />
+      </main>
+      <div class="congrats"></div>
+    </div>
+  </body>
+
+  <script src="./js.js"></script>
+</html>
