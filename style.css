@@ -281,7 +281,49 @@ m body {
     right: 25%;
   }
 }
+.puma {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+}
+.button5 {
+  z-index: 2;
 
+  top: 70%;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: none;
+  color: rgb(58, 227, 58);
+  background-color: white;
+  font-family: "Alex Brush";
+  font-weight: 800;
+  font-size: 4rem;
+  animation-name: move5;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move5 {
+  0% {
+    top: 70%;
+  }
+  20% {
+    top: 70.2%;
+  }
+  40% {
+    top: 69.8%;
+  }
+  60% {
+    top: 70%;
+  }
+  80% {
+    top: 70.2%;
+  }
+  100% {
+    top: 70%;
+  }
+}
 .bio > .myname {
   position: absolute;
   left: 50%;
