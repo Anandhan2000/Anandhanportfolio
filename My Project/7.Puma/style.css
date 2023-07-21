@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css?family=Alatsi");
+@import url("https://fonts.googleapis.com/css?family=Alumni Sans Pinstripe");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  font-family: "ABeeZee";
+}
+
+.offer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(115, 70, 23);
+  height: 4rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.puma-main {
+  display: flex;
+  position: sticky;
+  background-color: black;
+  width: 100%;
+  height: 8rem;
+}
+.puma-sizemenu {
+  position: relative;
+  display: flex;
+  width: 160rem;
+  margin: auto;
+  height: 100%;
+  justify-content: space-between;
+}
+.pumamenu {
+  display: flex;
+  height: 100%;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+.pumamenu-2 {
+  justify-content: right;
+}
+.pumaoption {
+  margin: auto;
+}
+.pumacont {
+  padding: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.pumalogo {
+  width: 8rem;
+}
+
+.btn-size {
+  width: 13rem;
+  height: 4rem;
+  color: white;
+  background-color: black;
+  border: solid 0.1rem rgb(255, 255, 255, 0.4);
+}
+.btn-size:hover {
+  border: solid 1px white;
+}
+
+.pumainfo2,
+.pumainfo3,
+.pumainfo4,
+.pumainfo5 {
+  font-size: 1.7rem;
+}
+
+.menu-men {
+  width: 3rem;
+  height: 2.5rem;
+  border: none;
+  background-color: black;
+}
+
+.pumainfo5 {
+  display: none;
+  margin-right: 2rem;
+  letter-spacing: 5px;
+}
+.list {
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.men {
+  font-size: 1.4rem;
+  position: relative;
+  left: -7px;
+}
+.pumainfo6 {
+  display: none;
+}
+
+.pumainfo5 {
+  margin-right: 2rem;
+}
+.pumaoption-1 {
+  position: absolute;
+  left: -30px;
+}
+/* _______________________________________________________Media 1280px---------------------------*/
+@media (max-width: 1280px) {
+  .pumainfo1 {
+    display: none;
+  }
+  .pumainfo6 {
+    display: block;
+  }
+
+  .pumaoption-1 {
+    position: absolute;
+    left: -30px;
+  }
+}
+/* _______________________________________________________Media 1280px---------------------------*/
+/* _______________________________________________________Media 1110px---------------------------*/
+@media (max-width: 1110px) {
+  .pumamenu-1 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 10.5rem;
+    padding: 0% !important;
+  }
+  .pumamenu-1 > li > a {
+    font-family: "Alatsi";
+    color: black;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding: 0%;
+  }
+  .pumamenu-1 > li {
+    position: relative;
+    width: 44rem;
+    margin: 2rem auto auto auto;
+    padding-bottom: 3px;
+    border-bottom: solid 1px rgb(192, 188, 188, 0.5);
+  }
+  .pumaoption-9 {
+    border-bottom: none !important;
+  }
+  .pumamenu-1 > li a::after {
+    content: ">";
+    position: absolute;
+    right: 0;
+  }
+  .pumainfo5 {
+    display: block;
+  }
+  .pumainfo4 {
+    margin-right: 0px;
+  }
+  .puma-sizemenu {
+    justify-content: right;
+  }
+  .pumamenu-1:hover .pumacont {
+    color: black !important;
+  }
+  .bod:hover {
+    border-bottom: none !important;
+    color: black !important;
+  }
+  .important {
+    width: 100%;
+  }
+  .menu-perofile {
+    margin-top: 5rem;
+  }
+  .account-set {
+    width: 100%;
+    list-style-type: none;
+  }
+  .account-set > li {
+    position: relative;
+    width: 44rem;
+    margin: 2rem auto auto auto;
+    padding-bottom: 3px;
+    font-weight: bold;
+    border-bottom: solid 1px rgb(192, 188, 188, 0.5);
+  }
+  .accuont5 {
+    border-bottom: none !important;
+    position: relative;
+  }
+  .account-set > li > a {
+    font-family: "Alumni Sans Pinstripe";
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+    padding: 0%;
+    text-decoration: none;
+  }
+  .ass5::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url("./image/50\ premium\ vector\ icons\ of\ Country\ Flags\ designed\ by\ Freepik.jpeg");
+    background-size: 250px 400px;
+
+    background-position: 74px 166px;
+  }
+  .ass5-1 {
+    position: absolute;
+    right: 30px;
+  }
+  .menu-perofile {
+    display: block !important;
+  }
+}
+/* _______________________________________________________Media 1110px---------------------------*/
+/* _______________________________________________________Media 1005px---------------------------*/
+@media (max-width: 1005px) {
+  .puma-main {
+    height: 6rem;
+  }
+  .pumaoption-1 {
+    top: -8px;
+  }
+}
+/* _______________________________________________________Media 1005px---------------------------*/
+/* _______________________________________________________Media 750px---------------------------*/
+@media (max-width: 760px) {
+  html {
+    font-size: 50%;
+  }
+  .btn,
+  .account-set > li,
+  .pumamenu-1 > li {
+    min-width: 20rem !important;
+  }
+}
+/* _______________________________________________________Media 750px---------------------------*/
+/* _______________________________________________________Media 400px---------------------------*/
+@media (max-width: 400px) {
+  .btn,
+  .account-set > li,
+  .pumamenu-1 > li {
+    width: 90vw !important;
+  }
+  .pumainfo5 {
+    margin-right: 0%;
+  }
+}
+/* _______________________________________________________Media 400px---------------------------*/
+.pumamenu-1:hover .pumacont {
+  color: rgb(149, 147, 147);
+}
+.pumamenu-1 {
+  padding-left: 5rem;
+}
+.bod:hover {
+  border-bottom: solid 1px goldenrod;
+  color: white !important;
+}
+.bod1:hover .search {
+  border: solid 10px rgb(167, 165, 165);
+  border-radius: 50%;
+  background-color: rgb(167, 165, 165);
+}
+
+.profilebtn {
+  display: block;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.btn {
+  width: 44rem;
+  display: block;
+  margin: 10px auto auto auto;
+  color: white;
+  border: none;
+  height: 4rem;
+  font-family: Alatsi;
+  font-size: 2rem;
+}
+
+.log-btn {
+  background-color: rgb(143, 98, 37);
+}
+.reg-btn {
+  background-color: rgb(175, 176, 177);
+}
+
+.menu-perofile {
+  display: none;
+}
+
+.menus1 {
+  display: none !important;
+}
+
+.searchmenu {
+  position: absolute;
+  display: none;
+  width: 100%;
+  background-color: white;
+  top: 0;
+
+  z-index: 2;
+}
+.searchmenu1 {
+  width: 100%;
+  background-color: rgb(240, 242, 244);
+}
+
+.search-size {
+  display: flex;
+
+  max-width: 160rem;
+  margin: auto;
+  height: 12rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box {
+  width: 80vw;
+  height: 5.6rem;
+  padding-left: 2rem;
+  padding-right: 5rem;
+  border: 0.5px solid black;
+  font-size: 1.5rem;
+  color: rgb(240, 242, 244, 0.5);
+}
+.search-btn {
+  position: relative;
+  font-size: 1.7rem !important;
+  position: absolute;
+  color: black;
+  background-color: transparent;
+  border: none;
+  transform: translate(-31px, 19px);
+}
+.search-btn:hover {
+  background-color: rgb(240, 242, 244);
+  border: solid 1rem rgb(240, 242, 244);
+  border-radius: 50%;
+  transform: translate(-40px, 9px);
+}
+.search-close {
+  cursor: pointer;
+  margin-left: 3rem;
+  font-size: 4rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+.search-close:hover {
+  background-color: rgb(129, 130, 130);
+  border: solid 1rem rgb(129, 130, 130);
+  border-radius: 50%;
+}
+
+.treanding {
+  width: 100%;
+}
+.treanding1 {
+  max-width: 160rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+.treanding2 {
+  margin-left: 5rem;
+  display: flex;
+}
+.treanding-search {
+  width: 49rem;
+
+  font-family: Alatsi;
+
+  list-style-type: none;
+}
+.treaning-tga {
+  text-decoration: none;
+  color: rgb(118, 117, 117);
+}
+.trean-li:not(:first-child) {
+  font-size: 1.7rem;
+  margin-top: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.gridess {
+  box-sizing: border-box;
+  margin-top: 3rem;
+  gap: 3rem;
+  display: grid;
+  height: 45rem;
+  grid-template-columns: 49rem 49rem;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "grides1 grides2"
+    "grides3 grides4"
+    "grides4 grides5"
+    "grides6 grides7";
+}
+.grides1 {
+  grid-area: "grides1";
+}
+
+.grides2 {
+  grid-area: "grides2";
+}
+.grides3 {
+  grid-area: "grides3";
+}
+.grides4 {
+  grid-area: "grides4";
+}
+.grides5 {
+  grid-area: "grides5";
+}
+.grides6 {
+  grid-area: "grides6";
+}
+.grides7 {
+  grid-area: "grides7";
+}
+.grides8 {
+  grid-area: "grides8";
+}
+
+.grides-sug {
+  display: flex;
+  column-gap: 1.6rem;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: Alatsi;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.sug-img {
+  width: 10rem;
+}
+
+.mon1 {
+  color: red;
+}
+.mon2 {
+  color: rgb(135, 136, 136);
+}
+
+.under:hover {
+  border-bottom: solid 2px black;
+}
