@@ -47,9 +47,23 @@ menu.addEventListener("click", function () {
 const searchel = document.querySelector(".searchmenu");
 const seaechBtn = document.querySelector(".btn-size");
 const searchint = document.querySelector(".search-close");
+const searchel2 = document.querySelector(".pumabout6");
 seaechBtn.addEventListener("click", function () {
   searchel.style.display = "block";
 });
 searchint.addEventListener("click", function () {
   searchel.style.display = "none";
+});
+
+searchel2.addEventListener("click", function () {
+  searchel.style.display = "block";
+});
+
+// profile icon
+
+const profileElcont = document.querySelector(".menu-perofile1");
+const profileE = document.querySelector(".pumabout4");
+
+profileE.addEventListener("click", function () {
+  profileElcont.classList.toggle("menu-perofile1");
 });

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Alatsi");
 @import url("https://fonts.googleapis.com/css?family=Alumni Sans Pinstripe");
+@import url("https://fonts.googleapis.com/css?family=Amatic SC");
+@import url("https://fonts.googleapis.com/css?family=Architects Daughter");
 * {
   padding: 0%;
   margin: 0%;
@@ -14,7 +16,15 @@ body {
   display: block;
   font-family: "ABeeZee";
 }
-
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
 .offer {
   display: flex;
   width: 100%;
@@ -49,6 +59,7 @@ body {
 }
 .pumamenu-2 {
   justify-content: right;
+  margin-right: 3rem;
 }
 .pumaoption {
   margin: auto;
@@ -116,6 +127,21 @@ body {
   position: absolute;
   left: -30px;
 }
+/* _______________________________________________________Media 1600px---------------------------*/
+
+@media (max-width: 1630px) {
+  .search-size {
+    box-sizing: border-box;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .search-box {
+    max-width: 100%;
+  }
+}
+
+/* _______________________________________________________Media 1600px---------------------------*/
+
 /* _______________________________________________________Media 1280px---------------------------*/
 @media (max-width: 1280px) {
   .pumainfo1 {
@@ -183,9 +209,7 @@ body {
   .important {
     width: 100%;
   }
-  .menu-perofile {
-    margin-top: 5rem;
-  }
+
   .account-set {
     width: 100%;
     list-style-type: none;
@@ -211,26 +235,35 @@ body {
     padding: 0%;
     text-decoration: none;
   }
-  .ass5::after {
-    position: absolute;
-    content: "";
-    right: 0;
-    width: 30px;
-    height: 30px;
-    background-image: url("./image/50\ premium\ vector\ icons\ of\ Country\ Flags\ designed\ by\ Freepik.jpeg");
-    background-size: 250px 400px;
 
-    background-position: 74px 166px;
-  }
   .ass5-1 {
     position: absolute;
     right: 30px;
   }
   .menu-perofile {
     display: block !important;
+    margin-top: 5rem;
+    position: unset !important;
+    margin: auto;
+    width: unset !important;
   }
 }
 /* _______________________________________________________Media 1110px---------------------------*/
+
+/* _______________________________________________________Media 1080px---------------------------*/
+
+@media (max-width: 1080px) {
+  .treanding2 {
+    flex-direction: column;
+  }
+  .prodect {
+    margin-top: 5rem;
+    margin-left: 4rem;
+  }
+}
+
+/* _______________________________________________________Media 1080px---------------------------*/
+
 /* _______________________________________________________Media 1005px---------------------------*/
 @media (max-width: 1005px) {
   .puma-main {
@@ -251,10 +284,17 @@ body {
   .pumamenu-1 > li {
     min-width: 20rem !important;
   }
+  .gridess {
+    display: flex !important;
+    flex-direction: column;
+  }
 }
 /* _______________________________________________________Media 750px---------------------------*/
 /* _______________________________________________________Media 400px---------------------------*/
 @media (max-width: 400px) {
+  html {
+    font-size: 50% !important;
+  }
   .btn,
   .account-set > li,
   .pumamenu-1 > li {
@@ -284,11 +324,10 @@ body {
 .profilebtn {
   display: block;
   width: 100%;
-  margin-top: 5rem;
 }
 
 .btn {
-  width: 44rem;
+  width: 100%;
   display: block;
   margin: 10px auto auto auto;
   color: white;
@@ -305,18 +344,17 @@ body {
   background-color: rgb(175, 176, 177);
 }
 
-.menu-perofile {
-  display: none;
-}
-
 .menus1 {
   display: none !important;
 }
 
 .searchmenu {
+  overflow: hidden;
+  overflow: scroll;
   position: absolute;
   display: none;
   width: 100%;
+  height: 650px;
   background-color: white;
   top: 0;
 
@@ -338,7 +376,8 @@ body {
 }
 
 .search-box {
-  width: 80vw;
+  width: 100%;
+  max-width: 160rem;
   height: 5.6rem;
   padding-left: 2rem;
   padding-right: 5rem;
@@ -348,52 +387,50 @@ body {
 }
 .search-btn {
   position: relative;
-  font-size: 1.7rem !important;
-  position: absolute;
+  bottom: 18px;
+  font-size: 2rem !important;
   color: black;
   background-color: transparent;
   border: none;
   transform: translate(-31px, 19px);
 }
 .search-btn:hover {
-  background-color: rgb(240, 242, 244);
-  border: solid 1rem rgb(240, 242, 244);
-  border-radius: 50%;
-  transform: translate(-40px, 9px);
+  cursor: pointer;
 }
 .search-close {
   cursor: pointer;
-  margin-left: 3rem;
-  font-size: 4rem;
+  font-size: 3rem;
   color: black;
   background-color: transparent;
   border: none;
-  font-weight: lighter;
+  font-family: "Amatic SC";
+  font-weight: 100;
   opacity: 0.5;
 }
 .search-close:hover {
-  background-color: rgb(129, 130, 130);
-  border: solid 1rem rgb(129, 130, 130);
-  border-radius: 50%;
+  cursor: pointer;
 }
 
 .treanding {
   width: 100%;
 }
 .treanding1 {
-  max-width: 160rem;
+  width: 100%;
   margin: auto;
   margin-top: 4rem;
 }
 .treanding2 {
-  margin-left: 5rem;
+  margin: auto;
   display: flex;
+  max-width: 160rem;
+  justify-content: space-between;
+  overflow: scroll;
 }
 .treanding-search {
+  margin-left: 4rem;
+  box-sizing: border-box;
   width: 49rem;
-
   font-family: Alatsi;
-
   list-style-type: none;
 }
 .treaning-tga {
@@ -406,6 +443,9 @@ body {
   letter-spacing: 1px;
   font-weight: 100;
 }
+.prodect {
+  margin-right: 10rem;
+}
 
 .gridess {
   box-sizing: border-box;
@@ -413,7 +453,7 @@ body {
   gap: 3rem;
   display: grid;
   height: 45rem;
-  grid-template-columns: 49rem 49rem;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "grides1 grides2"
@@ -456,7 +496,7 @@ body {
   font-family: Alatsi;
   font-weight: 200;
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 4rem;
 }
 
@@ -473,4 +513,108 @@ body {
 
 .under:hover {
   border-bottom: solid 2px black;
+}
+
+.sugges {
+  font-family: "Alatsi";
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.pumabout6 {
+  background-color: transparent;
+  border: none;
+}
+
+.menu-perofile {
+  position: absolute;
+  border-radius: 8px;
+  right: 3.5rem;
+  top: 7rem;
+
+  background-color: white;
+  height: 40rem;
+  padding: 3rem;
+  width: 30rem;
+}
+.menu-perofile1 {
+  display: none;
+}
+.account-set {
+  list-style-type: none;
+}
+.account-set > li {
+  display: flex;
+  align-items: end;
+  border-bottom: solid 1px rgba(105, 104, 104, 0.5);
+  height: 3.5rem;
+  box-sizing: border-box;
+}
+.account-set > li > a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.trai {
+  position: absolute;
+  right: 10px;
+  top: -18px;
+  width: 0;
+  height: 0;
+  border-right: 1.5rem solid transparent;
+  border-left: 1.5rem solid transparent;
+  border-bottom: 2rem solid white;
+}
+.ass5::after {
+  position: absolute;
+  content: "";
+  right: 30px;
+  transform: translateY(-9px);
+  width: 30px;
+  height: 30px;
+  background-image: url("./image/50\ premium\ vector\ icons\ of\ Country\ Flags\ designed\ by\ Freepik.jpeg");
+  background-size: 250px 400px;
+
+  background-position: 74px 166px;
+}
+
+.ass5-1 {
+  position: absolute;
+  right: 72px;
+}
+
+.pumabout4 {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.pumainfo4:hover .menu-perofile {
+  display: block !important;
+}
+
+.come {
+  display: none;
+
+  column-gap: 5rem;
+  background-color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.newcont {
+  margin-right: 4rem;
+}
+
+.newcont > li {
+  padding-top: 1rem;
+}
+
+.newcont > li > a {
+  font-style: 1.5rem;
+  font-family: "Architects Daughter";
+  color: rgb(66, 65, 65, 0.5);
+}
+.come .pumacont-2:hover {
+  display: flex !important ;
 }

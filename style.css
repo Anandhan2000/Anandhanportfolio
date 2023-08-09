@@ -149,6 +149,54 @@ m body {
     left: 30%;
   }
 }
+.button6 {
+  z-index: 2;
+  left: 35%;
+  top: 30%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: black;
+  font-family: "Alex Brush";
+  font-weight: 800;
+  font-size: 2rem;
+  animation-name: move6;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.button6 > a > img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+@keyframes move6 {
+  0% {
+    top: 30%;
+    left: 35%;
+  }
+  20% {
+    top: 30.5%;
+    left: 34.5%;
+  }
+  40% {
+    top: 29.5%;
+    left: 35%;
+  }
+  60% {
+    top: 30;
+    left: 35.5%;
+  }
+  80% {
+    top: 30.5%;
+    left: 35.5%;
+  }
+  100% {
+    top: 30%;
+    left: 35%;
+  }
+}
 .button2 {
   z-index: 2;
   right: 20%;
